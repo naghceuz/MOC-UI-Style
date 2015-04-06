@@ -1,18 +1,6 @@
 * { box-sizing:border-box; }
 
-/* basic stylings ------------------------------------------ */
-body 				 { 
-  background: url('../images/p2.jpg') no-repeat 50% 0% fixed;
-  background-size: 100%; 
 
-  background: url('../images/p2.jpg') no-repeat center center fixed;
-
-  -webkit-background-size: cover;  
-  -moz-background-size: cover;  
-  -o-background-size: cover;  
-  background-size: cover;  
-  -ms-
-}
 
 /*http://drbl.in/nYHu*/
 
@@ -42,9 +30,9 @@ html, body
   width: 100%;
   color: rgba(0,0,0,0.6);
   font-family: RobotoDraft,Roboto;
-  background: url('../images/p3-1.jpg') no-repeat 50% 0% fixed;
+  background: url('../images/p2.jpg') no-repeat 50% 0% fixed;
   background-size: 100%; 
-  background: url('../images/p3-1.jpg') no-repeat center center fixed;
+  background: url('../images/p2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;  
   -moz-background-size: cover;  
   -o-background-size: cover;  
@@ -66,17 +54,31 @@ body header {
 }
 
 .login {
+  opacity: 0.8;
   position: absolute;
   padding: 10px;
   left: calc(50% - 200px);
   top: calc(50% - 13em);
   width: 400px;
-  height: 250px;
+  height: 360px;
   border-radius: 3px;
   background: white;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.26);
   overflow: hidden;
 }
+
+
+.loginTitle {
+  position: relative;
+  left: calc(50% - 50px);
+}
+
+
+.loginTitle2 {
+  position: relative;
+  left: calc(50% - 128px);
+}
+
 
 .login > i {
   position: relative;
@@ -252,11 +254,27 @@ button[type="submit"] {
   font-weight: 100;
   font-size: 15px;
   border: 0;
-  margin: -3px 0px;
+  margin: -3px 4px;
   padding: 5px 15px;
   border-radius: 3px;
   cursor: pointer;
   background: rgb(3, 169, 245);
+  color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
+button[type="submit2"] {
+  position: relative;
+  float: right;
+  font-family: inherit;
+  font-weight: 100;
+  font-size: 15px;
+  border: 0;
+  margin: -3px 4px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: purple;
   color: #fff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
 }
